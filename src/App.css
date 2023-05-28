@@ -42,9 +42,34 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
 }
-.myImage {
-  width: 30%;
+.store {
+  width: 50%;
   height: 50%;
   border-radius: 360px;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.prods {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.fruit1 {
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 100px; */
+}
+.fruit2 {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 100px; */
+}
+.prodimg {
+  height: 100%;
+  width: 100%;
 }
